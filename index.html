@@ -11,6 +11,7 @@
     />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
+
   <body>
     <header class="header">
       <a href="#home" class="logo">Port<span id="folio">folio</span>.</a>
@@ -24,7 +25,10 @@
         <a href="#services" style="--i: 3" class="hover-underline-animation"
           >Services</a
         >
-        <a href="#projects" style="--i: 4" class="hover-underline-animation"
+        <a
+          href="#skillsSection"
+          style="--i: 4"
+          class="hover-underline-animation"
           >Projects</a
         >
         <a href="#contact" style="--i: 5" class="hover-underline-animation"
@@ -76,100 +80,200 @@
     </section>
 
     <section>
-        <div class="services" id="services">
-            <div class="container">
-                <h1 class="title">My <span>Services</span></h1>
-                <div class="services-list">
-                    <div>
-                        <i class='bx bxl-react' style="color: cyan"></i>
-                        <h2>Frontend Development</h2>
-                        <p><strong>User Interface (UI) Design:</strong> I've the ability to create visually appealing and user-friendly interfaces.<br />
-                        <strong>Component-Based Development:</strong> I'm experienced in building reusable components using React.<br />
-                        <strong>State Management:</strong> I can manage application state using React's state management mechanisms.<br />
-                        <strong>Responsive Design:</strong> I can create websites that adapt to different screen sizes and devices.</p>
-                        <a href="#" class="btn-box">View More</a>
-                    </div>
-                    <div>
-                        <i class='bx bxl-nodejs' style='color:#00eeff'></i>
-                        <h2>Backend Development</h2>
-                        <p><strong>API Development:</strong> I've experience in creating RESTful APIs using Express.js.<br />
-                        <strong>Database Management:</strong> I've the ability to work with MongoDB and manage data effectively.<br />
-                        <strong>Server-Side Logic:</strong> I'm skillful in implementing server-side business logic and data validation.<br />
-                        <strong>Authentication and Authorization:</strong> I also work with user authentication and authorization mechanisms.</p><br />
-                        <a href="#" class="btn-box">View More</a>
-                    </div>
-                    <div>
-                        <i class='bx bxs-layer' style='color:#00eeff'></i>
-                        <h2>Full-Stack Development</h2>
-                        <p><strong>End-to-End Projects:</strong> Highlight projects where you've worked on both the frontend and backend, showcasing your full-stack capabilities.<br />
-                        <strong>Integration:</strong> Demonstrate your ability to integrate different parts of the application, such as the frontend, backend, and database.<br />
-                        <strong>Problem-Solving:</strong> Showcase your problem-solving skills and ability to overcome technical challenges.</p><br />
-                        <a href="#" class="btn-box">View More</a>
-                    </div>
-                </div>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="bx bxl-react" style="color: cyan"></i>
+              <h2>Frontend Development</h2>
+              <p>
+                <strong>User Interface (UI) Design:</strong> I've the ability to
+                create visually appealing and user-friendly interfaces.<br />
+                <strong>Component-Based Development:</strong> I'm experienced in
+                building reusable components using React.<br />
+                <strong>State Management:</strong> I can manage application
+                state using React's state management mechanisms.<br />
+                <strong>Responsive Design:</strong> I can create websites that
+                adapt to different screen sizes and devices.
+              </p>
+              <a href="#" class="btn-box">View More</a>
             </div>
+            <div>
+              <i class="bx bxl-nodejs" style="color: #00eeff"></i>
+              <h2>Backend Development</h2>
+              <p>
+                <strong>API Development:</strong> I've experience in creating
+                RESTful APIs using Express.js.<br />
+                <strong>Database Management:</strong> I've the ability to work
+                with MongoDB and manage data effectively.<br />
+                <strong>Server-Side Logic:</strong> I'm skillful in implementing
+                server-side business logic and data validation.<br />
+                <strong>Authentication and Authorization:</strong> I also work
+                with user authentication and authorization mechanisms.
+              </p>
+              <br />
+              <a href="#" class="btn-box">View More</a>
+            </div>
+            <div>
+              <i class="bx bxs-layer" style="color: #00eeff"></i>
+              <h2>Full-Stack Development</h2>
+              <p>
+                <strong>End-to-End Projects:</strong> Highlight projects where
+                you've worked on both the frontend and backend, showcasing your
+                full-stack capabilities.<br />
+                <strong>Integration:</strong> Demonstrate your ability to
+                integrate different parts of the application, such as the
+                frontend, backend, and database.<br />
+                <strong>Problem-Solving:</strong> Showcase your problem-solving
+                skills and ability to overcome technical challenges.
+              </p>
+              <br />
+              <a href="#" class="btn-box">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skillsSection">
       <h1 class="title">My <span>Skills</span></h1>
       <div class="container1" id="skills">
         <h1 class="heading1">Technical Skills</h1>
         <div class="tech-bars">
-        <div class="bar"><i class='bx bxl-html5' style="color: cyan;"></i>
-          <div class="info">
-            <span>HTML5</span>
+          <div class="bar">
+            <i class="bx bxl-html5" style="color: #f06529"></i>
+            <div class="info">
+              <span>HTML5</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-css3' style="color: cyan;"></i>
-          <div class="info">
-            <span>CSS3</span>
+          <div class="bar">
+            <i class="bx bxl-css3" style="color: #2965f1"></i>
+            <div class="info">
+              <span>CSS3</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-bootstrap' style="color: cyan;"></i>
-          <div class="info">
-            <span>Bootstrap</span>
+          <div class="bar">
+            <i class="bx bxl-bootstrap" style="color: #563d7c"></i>
+            <div class="info">
+              <span>Bootstrap</span>
+            </div>
+            <div class="progress-line bootstrap">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-tailwind-css' style="color: cyan;"></i>
-          <div class="info">
-            <span>Tailwind</span>
+          <div class="bar">
+            <i class="bx bxl-tailwind-css" style="color: skyblue"></i>
+            <div class="info">
+              <span>Tailwind</span>
+            </div>
+            <div class="progress-line tailwind">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-javascript' style="color: cyan;"></i>
-          <div class="info">
-            <span>JavaScript</span>
+          <div class="bar">
+            <i class="bx bxl-javascript" style="color: yellow"></i>
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line js">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-react' style="color: cyan;"></i>
-          <div class="info">
-            <span>React</span>
+          <div class="bar">
+            <i class="bx bxl-react" style="color: #61dbfb"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-nodejs' style="color: cyan;"></i>
-          <div class="info">
-            <span>Node</span>
+          <div class="bar">
+            <i class="bx bxl-nodejs" style="color: green"></i>
+            <div class="info">
+              <span>Node</span>
+            </div>
+            <div class="progress-line node">
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div class="bar"><i class='bx bxl-edge' style="color: cyan;"></i>
-          <div class="info">
-            <span>Express</span>
+          <div class="bar">
+            <i
+              class="bx bxl-edge"
+              style="color: #fff; background-color: #151515; border-radius: 50%"
+            ></i>
+            <div class="info">
+              <span>Express</span>
+            </div>
+            <div class="progress-line express">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bx-coin-stack" style="color: skyblue"></i>
+            <div class="info">
+              <span>SQL</span>
+            </div>
+            <div class="progress-line sql">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="bx bxl-c-plus-plus" style="color: #5e97d0"></i>
+            <div class="info">
+              <span>C++</span>
+            </div>
+            <div class="progress-line cpp">
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
-      <div class="bar"><i class='bx bx-coin-stack' style='color:#00eeff'></i>
-          <div class="info">
-            <span>SQL</span>
+      <div class="container1" id="skills">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">90%</div>
+            <div class="text">Communication</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">80%</div>
+            <div class="text">Creativity</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">75%</div>
+            <div class="text">Problem Solving</div>
+          </div>
+          <div class="radial-bar">
+            <svg x="0px" y="0px" viewBox="0 0 200 200">
+              <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+              <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+            </svg>
+            <div class="percentage">100%</div>
+            <div class="text">Team Work</div>
           </div>
         </div>
-        <div class="bar"><i class='bx bxl-c-plus-plus' style="color: cyan;"></i>
-          <div class="info">
-            <span>C++</span>
-          </div>
-        </div>
-        </div>
+      </div>
     </section>
-
-
 
     <script src="script.js"></script>
   </body>
