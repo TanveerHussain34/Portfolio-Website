@@ -9,6 +9,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100% !important;
+  min-height: 100%;
   color: #ededed;
   background-color: #081b29;
   font-family: "Poppins", sans-serif;
@@ -890,8 +891,11 @@ form textarea {
   }
   .home {
     flex-direction: column;
-    padding: 85px 5% 1rem 5%;
-    max-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 5% 1rem 5%;
+    min-height: 100vh;
+    height: auto;
   }
   .home-img img {
     order: 1;
@@ -899,13 +903,13 @@ form textarea {
     height: 15rem;
     margin-bottom: 0.5rem;
     background-color: #081b29;
-    box-shadow: 0 0 20px cyan, 0 0 40px cyan;
+    box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
   .home-content {
     order: 2;
     width: 100%;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.7;
   }
   .home-content h1 {
     text-align: center;
