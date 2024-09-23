@@ -875,9 +875,12 @@ form textarea {
     display: none;
   }
   .header {
-    padding: 0.5rem 5%;
+    padding: 0.3rem 5%;
   }
   .logo {
+    font-size: 1.2rem;
+  }
+  .menu-icon {
     font-size: 1.5rem;
   }
   .title {
@@ -890,15 +893,16 @@ form textarea {
   }
   .home {
     flex-direction: column;
-    padding: 75px 5% 20px;
+    padding: 55px 5% 1rem 5%;
     max-height: 100vh;
   }
   .home-img img {
     order: 1;
-    width: 220px;
-    height: 240px;
-    margin-bottom: 0.5rem;
+    width: 8.5rem;
+    height: 10rem;
+    margin-bottom: 0.2rem;
     background-color: #081b29;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan;
   }
   .home-content {
     order: 2;
@@ -908,37 +912,38 @@ form textarea {
   }
   .home-content h1 {
     text-align: center;
-    font-size: 32px;
+    font-size: 1.5rem;
   }
   .home-content h3 {
     text-align: center;
-    font-size: 22px;
+    font-size: 1.1rem;
   }
   .home-content h3:nth-of-type(2) {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     width: 100%;
   }
   .home-role {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .home-content p {
     min-width: 100%;
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 500;
     text-align: center;
   }
   .home-sci a {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 1rem;
     margin: 1rem 8px 1rem 0;
   }
   .btn-box {
-    font-size: 12px;
+    font-size: 0.75rem;
+    padding: 0.6rem 1rem;
   }
   .about {
     grid-template-columns: 1fr;
-    padding: 50px 5% 0;
+    padding: 55px 5% 1rem 5%;
   }
   .about-img {
     display: none;
@@ -946,8 +951,13 @@ form textarea {
   .about-text h4 {
     font-size: 1.5rem;
   }
+  .about-role {
+    font-size: 1.2rem;
+  }
   .about-text p {
-    font-size: 14px;
+    font-size: 0.85rem;
+    margin-bottom: 0.9rem;
+    line-height: 1.75;
   }
   .tAndPSkills {
     grid-template-columns: 1fr;
@@ -955,14 +965,14 @@ form textarea {
   }
   /* services */
   .container {
-    padding: 70px 5% 0;
+    padding: 55px 5% 0 !important;
   }
   .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     flex-wrap: wrap;
     grid-gap: 2rem !important;
-    margin-top: 40px;
+    margin-top: 2rem;
   }
   .services-list div {
     padding: 20px;
@@ -980,16 +990,24 @@ form textarea {
   }
   /* skills */
   #skillsSection {
-    padding: 70px 5% 0;
+    padding: 55px 5% 1rem 5%;
+  }
+  .skillsContainer {
+    min-width: 100%;
   }
   .tAndPSkills {
     margin-top: 0px;
+    grid-template-columns: 1fr;
   }
   .bar {
-    margin: 24px 0 !important;
+    margin: 1rem 0 !important;
   }
   .radial-bars {
     gap: 0rem;
+    grid-template-columns: 1fr;
+  }
+  .radial-bar {
+    min-width: 100%;
   }
   .radial-bar div.text {
     font-size: 1.5rem;
@@ -1000,15 +1018,15 @@ form textarea {
   }
   /* projects */
   .projectsSection {
-    padding: 70px 5% 0;
+    padding: 55px 5% 1rem 5%;
   }
   .portfolio-content {
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    margin-top: 28px;
+    margin-top: 2rem;
     gap: 2rem;
   }
   #contactSection {
-    padding: 70px 5% 0;
+    padding: 55px 5% 1rem 5%;
   }
   .Contact {
     grid-template-columns: 1fr;
@@ -1072,11 +1090,11 @@ form textarea {
   .last-text p {
     width: 100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 1.5rem 0;
     background: #081b29;
     border-top: 1px solid #ededed;
     font-weight: 300;
-    margin-top: 50px;
+    margin-top: 3rem;
   }
   .top {
     bottom: 1rem;
