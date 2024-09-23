@@ -893,7 +893,6 @@ form textarea {
     flex-direction: column;
     align-items: center;
     padding: 80px 5% 1rem 5%;
-    min-height: 100vh;
     height: auto;
     gap: 0;
   }
@@ -907,10 +906,9 @@ form textarea {
   .home-content {
     order: 2;
     width: 100%;
-    align-items: flex-start;
     text-align: center;
     line-height: 1.5;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
   }
   .home-content h1 {
     text-align: center;
