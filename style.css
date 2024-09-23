@@ -907,6 +907,7 @@ form textarea {
   .home-content {
     order: 2;
     width: 100%;
+    align-items: flex-start;
     text-align: center;
     line-height: 1.5;
   }
