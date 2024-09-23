@@ -870,7 +870,7 @@ form textarea {
 @media (max-width: 480px) {
   .menu-icon {
     display: block;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .navbar {
     display: none;
@@ -898,8 +898,8 @@ form textarea {
   }
   .home-img img {
     order: 1;
-    width: 8rem;
-    height: 9.5rem;
+    width: 12rem;
+    height: 14rem;
     background-color: #081b29;
     box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
@@ -907,7 +907,7 @@ form textarea {
     order: 2;
     width: 100%;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-top: 1rem;
   }
   .home-content h1 {
@@ -1105,7 +1105,7 @@ form textarea {
     position: absolute;
     top: 5px;
     right: 1rem;
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-left: 0;
     padding: 0;
   }
