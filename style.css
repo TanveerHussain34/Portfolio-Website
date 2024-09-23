@@ -8,7 +8,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  max-width: 100% !important;
+  max-width: 100%;
   min-height: 100%;
   color: #ededed;
   background-color: #081b29;
@@ -73,8 +73,8 @@ body {
 }
 .home-img img {
   border-radius: 20%;
-  width: 420px;
-  height: 500px;
+  width: 380px;
+  height: 460px;
   background-color: #081b29;
   box-shadow: 0 0 20px cyan, 0 0 40px cyan;
 }
@@ -893,7 +893,7 @@ form textarea {
     flex-direction: column;
     align-items: center;
     padding: 80px 5% 1rem 5%;
-    height: auto;
+    height: fit-content;
     gap: 0;
   }
   .home-img img {
