@@ -875,12 +875,9 @@ form textarea {
     display: none;
   }
   .header {
-    padding: 0.3rem 5%;
+    padding: 0.5rem 5%;
   }
   .logo {
-    font-size: 1.2rem;
-  }
-  .menu-icon {
     font-size: 1.5rem;
   }
   .title {
@@ -898,11 +895,11 @@ form textarea {
   }
   .home-img img {
     order: 1;
-    width: 8.5rem;
-    height: 10rem;
-    margin-bottom: 0.2rem;
+    width: 13.75rem;
+    height: 15rem;
+    margin-bottom: 0.5rem;
     background-color: #081b29;
-    box-shadow: 0 0 10px cyan, 0 0 20px cyan;
+    box-shadow: 0 0 20px cyan, 0 0 40px cyan;
   }
   .home-content {
     order: 2;
@@ -912,34 +909,33 @@ form textarea {
   }
   .home-content h1 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .home-content h3 {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.325px;
   }
   .home-content h3:nth-of-type(2) {
     margin-bottom: 1.25rem;
     width: 100%;
   }
   .home-role {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .home-content p {
     min-width: 100%;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
   }
   .home-sci a {
-    width: 30px;
-    height: 30px;
-    font-size: 1rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.25rem;
     margin: 1rem 8px 1rem 0;
   }
   .btn-box {
     font-size: 0.75rem;
-    padding: 0.6rem 1rem;
   }
   .about {
     grid-template-columns: 1fr;
@@ -951,13 +947,8 @@ form textarea {
   .about-text h4 {
     font-size: 1.5rem;
   }
-  .about-role {
-    font-size: 1.2rem;
-  }
   .about-text p {
-    font-size: 0.85rem;
-    margin-bottom: 0.9rem;
-    line-height: 1.75;
+    font-size: 0.875rem;
   }
   .tAndPSkills {
     grid-template-columns: 1fr;
