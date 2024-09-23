@@ -890,7 +890,7 @@ form textarea {
   }
   .home {
     flex-direction: column;
-    padding: 55px 5% 1rem 5%;
+    padding: 85px 5% 1rem 5%;
     max-height: 100vh;
   }
   .home-img img {
@@ -905,7 +905,7 @@ form textarea {
     order: 2;
     width: 100%;
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.8;
   }
   .home-content h1 {
     text-align: center;
@@ -913,7 +913,7 @@ form textarea {
   }
   .home-content h3 {
     text-align: center;
-    font-size: 1.325px;
+    font-size: 1.325rem;
   }
   .home-content h3:nth-of-type(2) {
     margin-bottom: 1.25rem;
