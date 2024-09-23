@@ -837,7 +837,6 @@ form textarea {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  box-shadow: 0 0 10px cyan;
 }
 .sidenav a {
   padding: 8px 8px 8px 32px;
@@ -907,7 +906,7 @@ form textarea {
     order: 2;
     width: 100%;
     text-align: center;
-    line-height: 1.7;
+    line-height: 1.6;
     margin-top: 1rem;
   }
   .home-content h1 {
@@ -951,7 +950,8 @@ form textarea {
     font-size: 1.5rem;
   }
   .about-text p {
-    font-size: 0.875rem;
+    font-size: 1rem;
+    line-height: 1.6;
   }
   .tAndPSkills {
     grid-template-columns: 1fr;
