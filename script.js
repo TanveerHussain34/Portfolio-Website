@@ -64,9 +64,14 @@ scrollToTopBtn.onclick = function () {
 };
 
 function openNav() {
-  document.getElementById("mySidenav").style.width = "100%";
-}
+  const screenWidth = window.innerWidth; // Get the current screen width
 
+  if (screenWidth > 480 && screenWidth <= 768) {
+    document.getElementById("mySidenav").style.width = "35%";
+  } else {
+    document.getElementById("mySidenav").style.width = "80%";
+  }
+}
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
