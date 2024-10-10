@@ -895,7 +895,7 @@ form textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 5% 1rem 5%;
+    padding: 0px 5% 0rem 5%;
     min-height: 100vh;
     height: fit-content;
     gap: 0;
@@ -954,14 +954,15 @@ form textarea {
     align-items: center;
     min-height: 100vh;
     height: fit-content;
-    padding: 55px 5% 1rem 5%;
+    padding: 0px 5% 0rem 5%;
   }
   .about-img {
     display: none;
   }
   .about-text p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.6;
+    margin: 1rem 0 0.8rem 0;
   }
   .tAndPSkills {
     grid-template-columns: 1fr;
