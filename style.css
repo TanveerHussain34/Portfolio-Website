@@ -895,15 +895,15 @@ form textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 5% 1rem 5%;
+    padding: 50px 5% 1rem 5%;
     min-height: 100vh;
     height: fit-content;
     gap: 0;
   }
   .home-img img {
     order: 1;
-    width: 8rem;
-    height: 9rem;
+    width: 10rem;
+    height: 12rem;
     background-color: #081b29;
     box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
@@ -911,42 +911,42 @@ form textarea {
     order: 2;
     width: 100%;
     text-align: center;
-    line-height: 1.5;
+    line-height: 1.6;
     margin-top: 1rem;
   }
   .home-content h1 {
     text-align: center;
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   .home-content h3 {
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
   }
   .typed-cursor {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: cyan;
     font-weight: bold;
   }
   .home-role {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: cyan;
     font-weight: bold;
   }
   .home-content p {
     min-width: 100%;
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
   }
   .home-sci a {
-    width: 30px;
-    height: 30px;
-    font-size: 1rem;
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
     margin: 1.25rem 0.6rem 1.25rem 0;
   }
   .btn-box {
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.4rem;
   }
   .about {
     grid-template-columns: 1fr;
@@ -1151,20 +1151,20 @@ form textarea {
     padding-right: 5vw;
   }
 }
+/* tablet view */
 @media (min-width: 481px) and (max-width: 768px) {
   .menu-icon {
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
   .navbar {
     display: none;
   }
-
   .header {
     padding: 0.5rem 5%;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .title {
     font-size: 2.5rem;
@@ -1176,16 +1176,17 @@ form textarea {
   }
   .home {
     flex-direction: column;
-    padding: 80px 5% 1rem 5%;
-    max-height: 100vh;
+    justify-content: center;
     align-items: center;
+    padding: 60px 5% 1rem 5%;
+    min-height: 100vh;
     height: fit-content;
     gap: 0;
   }
   .home-img img {
     order: 1;
-    width: 12rem;
-    height: 14rem;
+    width: 8rem;
+    height: 9rem;
     background-color: #081b29;
     box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
@@ -1198,34 +1199,38 @@ form textarea {
   }
   .home-content h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   .home-content h3 {
     text-align: center;
-    font-size: 1.325rem;
+    font-size: 1.1rem;
   }
-  .home-content h3:nth-of-type(2) {
-    margin-bottom: 1.25rem;
-    width: 100%;
+  .typed-cursor {
+    font-size: 1.25rem;
+    color: cyan;
+    font-weight: bold;
   }
   .home-role {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    color: cyan;
+    font-weight: bold;
   }
   .home-content p {
-    min-width: 85%;
+    width: 90%;
     margin: auto;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     text-align: center;
   }
   .home-sci a {
-    width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    margin: 1.5rem 0.75rem 1.5rem 0;
+    width: 35px;
+    height: 35px;
+    font-size: 1.1rem;
+    margin: 1.25rem 0.6rem 1.25rem 0;
   }
   .btn-box {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
   }
   .about {
     grid-template-columns: 1fr;
@@ -1279,6 +1284,23 @@ form textarea {
   .portfolio-content {
     margin-top: 40px;
   }
+  .layer {
+    padding: 0 1rem;
+  }
+  .layer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 0.3rem;
+  }
+  .layer p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .layer a i {
+    margin-top: 0.3rem;
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+  }
   #contactSection {
     padding: 90px 5% 0;
   }
@@ -1322,9 +1344,9 @@ form textarea {
   }
   .sidenav .closebtn {
     position: absolute;
-    top: -0.7rem;
+    top: -0.8rem;
     right: 0;
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     margin-left: 0;
     padding-right: 5vw;
   }
