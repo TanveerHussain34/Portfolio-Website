@@ -872,16 +872,16 @@ form textarea {
 @media (max-width: 480px) {
   .menu-icon {
     display: block;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .navbar {
     display: none;
   }
   .header {
-    padding: 0.5rem 5%;
+    padding: 0.6rem 5%;
   }
   .logo {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .title {
     font-size: 2rem;
@@ -939,14 +939,14 @@ form textarea {
     text-align: center;
   }
   .home-sci a {
-    width: 35px;
-    height: 35px;
-    font-size: 1.2rem;
-    margin: 1.5rem 0.8rem 1.5rem 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    margin: 1.6rem 0.8rem 1.8rem 0;
   }
   .btn-box {
     font-size: 1rem;
-    padding: 0.7rem 1.4rem;
+    padding: 0.6rem 1.5rem;
   }
   .about {
     grid-template-columns: 1fr;
