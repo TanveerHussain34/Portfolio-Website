@@ -69,7 +69,7 @@ function openNav() {
   if (screenWidth > 480 && screenWidth <= 768) {
     document.getElementById("mySidenav").style.width = "35%";
   } else {
-    document.getElementById("mySidenav").style.width = "80%";
+    document.getElementById("mySidenav").style.width = "100%";
   }
 }
 function closeNav() {
