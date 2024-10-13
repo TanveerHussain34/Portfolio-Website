@@ -1234,6 +1234,7 @@ form textarea {
     /* grid-template-columns: 1fr; */
     padding: 90px 5% 0;
     gap: 1rem;
+    min-height: 100vh;
     grid-template-columns: 9rem 1fr;
     min-height: 100vh;
   }
@@ -1384,57 +1385,84 @@ form textarea {
     margin-top: 1rem;
   }
   .home {
-    width: 100%;
-    height: 100vh;
-    padding: 80px 5% 0;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding: 60px 5% 1rem 5%;
+    min-height: 100vh;
+    height: fit-content;
+    gap: 0;
   }
   .home-img img {
-    width: 340px;
-    height: 460px;
-    border-radius: 15%;
+    /* order: 1; */
+    width: 9rem;
+    height: 12rem;
+    background-color: #081b29;
+    box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
   .home-content {
+    /* order: 2; */
     width: 100%;
-    line-height: 1.8;
+    /* text-align: center; */
+    /* line-height: 1.5; */
+    /* margin-top: 1rem; */
   }
   .home-content h1 {
-    font-size: 2.25rem;
+    /* text-align: center; */
+    font-size: 1.15rem;
   }
   .home-content h3 {
-    font-size: 1.6rem;
+    /* text-align: center; */
+    font-size: 0.75rem;
   }
-  .home-content h3:nth-of-type(3) {
-    font-size: 1.7rem !important;
+  .typed-cursor {
+    font-size: 0.75rem;
+    color: cyan;
+    font-weight: bold;
+  }
+  .home-role {
+    font-size: 0.9rem;
+    color: cyan;
+    font-weight: bold;
   }
   .home-content p {
-    min-width: 85%;
-    font-size: 1.2rem;
+    width: 90%;
+    font-size: 0.65rem;
     font-weight: 500;
     text-align: left;
   }
   .home-sci a {
-    height: 45px;
-    width: 45px;
-    font-size: 1.5rem;
-    margin: 1.35rem 1rem 1.35rem 0;
+    width: 25px;
+    height: 25px;
+    font-size: 0.9rem;
+    margin: 1rem 0.6rem 1rem 0;
   }
   .btn-box {
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
+    font-size: 0.63rem;
+    padding: 0.35rem 1rem;
   }
   .about {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     padding: 90px 5% 0;
+    gap: 1rem;
+    min-height: 100vh;
+    grid-template-columns: 9rem 1fr;
+    min-height: 100vh;
   }
-  .about-img {
-    display: none;
+  .about-img img {
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    max-width: 9rem;
+    border-radius: 1.5rem;
   }
-  .about-text h4 {
+  .about h2 {
     font-size: 1.75rem;
-    margin: 0.5rem 0 0.5rem 0;
   }
   .about-text p {
-    font-size: 1.25rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
   }
   /* services */
   .container {
