@@ -260,6 +260,9 @@ body {
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+.mobile-about-img {
+  display: none;
+}
 .title {
   text-align: center;
   font-size: 60px;
@@ -960,9 +963,17 @@ form textarea {
     display: none;
   }
   .about-text p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.6;
     margin: 1rem 0 0.8rem 0;
+  }
+  .mobile-about-img {
+    display: block;
+    float: right;
+    margin-left: 0.75rem;
+    width: 9rem;
+    height: 12.5rem;
+    border-radius: 10%;
   }
   .tAndPSkills {
     grid-template-columns: 1fr;
@@ -1182,25 +1193,18 @@ form textarea {
     height: fit-content;
   }
   .home-img img {
-    /* order: 1; */
     width: 10rem;
-    height: 12rem;
+    height: 13rem;
     background-color: #081b29;
     box-shadow: 0 0 15px cyan, 0 0 30px cyan;
   }
   .home-content {
-    /* order: 2; */
     width: 100%;
-    /* text-align: center; */
-    /* line-height: 1.5; */
-    /* margin-top: 1rem; */
   }
   .home-content h1 {
-    /* text-align: center; */
     font-size: 1.15rem;
   }
   .home-content h3 {
-    /* text-align: center; */
     font-size: 0.75rem;
   }
   .typed-cursor {
@@ -1230,20 +1234,19 @@ form textarea {
     padding: 0.35rem 1rem;
   }
   .about {
-    /* grid-template-columns: 1fr; */
     padding: 0 5%;
     gap: 1rem;
     min-height: 100vh;
-    grid-template-columns: 9rem 1fr;
+    grid-template-columns: 9.5rem 1fr;
   }
   .about-img img {
     width: 100%;
     height: 100%;
-    max-width: 9rem;
+    max-width: 9.5rem;
     border-radius: 1.5rem;
   }
   .about h2 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
   }
   .about-text p {
     font-size: 0.75rem;
@@ -1256,14 +1259,15 @@ form textarea {
   }
   .services-list {
     margin-top: 40px;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   }
   .services-list div h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
   .services-list div p {
-    line-height: 1.75;
-    font-size: 1.125rem;
+    line-height: 1.6;
+    font-size: 1rem;
     text-align: justify;
   }
   /* skills */
@@ -1512,7 +1516,7 @@ form textarea {
     margin-bottom: 1rem;
   }
 }
-@media (min-width: 1025px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 12000px) {
   .header {
     padding: 0.8rem 10%;
   }
@@ -1538,73 +1542,66 @@ form textarea {
     padding: 0 10%;
   }
   .home-img img {
-    width: 14rem;
-    height: 18.5rem;
+    width: 16rem;
+    height: 21rem;
   }
   .home-content {
     width: 100%;
     line-height: 1.6;
   }
   .home-content h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .home-content h3 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .typed-cursor {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: cyan;
     font-weight: bold;
   }
   .home-role {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: cyan;
     font-weight: bold;
   }
   .home-content p {
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
     text-align: left;
   }
   .home-sci a {
-    width: 35px;
-    height: 35px;
-    font-size: 1.15rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.25rem;
     margin: 1.25rem 0.6rem 1.25rem 0;
   }
   .btn-box {
-    font-size: 0.75rem;
-    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    padding: 0.65rem 1.25rem;
   }
   .about {
+    padding: 0 10%;
     gap: 3rem;
-    grid-template-columns: 320px 1fr;
-    gap: 2rem;
-    padding: 90px 10% 0;
-    height: 100vh;
+    min-height: 100vh;
+    grid-template-columns: 14rem 1fr;
+    justify-content: center;
+    align-items: center;
   }
   .about-img img {
     width: 100%;
-    max-width: 320px;
-    height: 500px;
-    border-radius: 30px;
+    height: 100%;
+    max-width: 14rem;
+    border-radius: 1.5rem;
   }
-  .about-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .about-text h4 {
-    font-size: 2rem;
-    margin-bottom: 0;
-    padding: 0;
+  .about h2 {
+    font-size: 2.75rem;
   }
   .about-text p {
-    font-size: 1.246rem;
-    line-height: 1.5;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
   }
   /* services */
   .container {
