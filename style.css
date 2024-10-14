@@ -948,8 +948,8 @@ form textarea {
     margin: 1.6rem 0.4rem 1.8rem 0.4rem;
   }
   .btn-box {
-    font-size: 1rem;
-    padding: 0.6rem 1.5rem;
+    font-size: 0.9rem;
+    padding: 0.55rem 1.4rem;
   }
   .about {
     grid-template-columns: 1fr;
@@ -963,7 +963,7 @@ form textarea {
     display: none;
   }
   .about-text p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     margin: 1rem 0 0.8rem 0;
   }
